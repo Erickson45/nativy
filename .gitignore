@@ -1,0 +1,32 @@
+# Ambiente virtual Python
+venv/
+env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Banco de dados (tem usuários, senhas com hash e histórico — não sobe pro repo)
+nativy.db
+nativy.db-journal
+
+# Áudios gerados em tempo de execução (são regenerados, não precisam ir pro git)
+audios/*.mp3
+audios/*.wav
+output.mp3
+
+# Arquivos temporários de transcrição (gerados e apagados automaticamente, mas por via das dúvidas)
+temp_*.webm
+temp_ws_*.webm
+
+# Variáveis de ambiente / segredos (se um dia adicionarem chave de API, etc.)
+.env
+.env.*
+
+# Arquivos de IDE/SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
